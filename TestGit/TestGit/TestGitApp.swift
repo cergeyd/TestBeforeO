@@ -13,6 +13,9 @@ struct TestGitApp: App {
 
     var body: some Scene {
         WindowGroup {
+            
+            /// NEW BRANCH
+            
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
