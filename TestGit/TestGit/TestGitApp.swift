@@ -14,7 +14,7 @@ struct TestGitApp: App {
     var body: some Scene {
         WindowGroup {
             
-            /// NEW BRANCH 2 123
+            /// NEW BRANCH 2 123 assa
             
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
